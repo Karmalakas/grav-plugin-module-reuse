@@ -1,0 +1,5 @@
+{% set module = page.find(page.header.module) %}
+
+{% if module.published is same as true %}
+    {{ module.content|raw }}
+{% endif %}

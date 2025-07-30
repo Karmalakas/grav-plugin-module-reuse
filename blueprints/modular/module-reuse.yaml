@@ -1,0 +1,24 @@
+title: Module re-use
+'@extends': default
+
+form:
+  fields:
+    tabs:
+      fields:
+        content:
+          fields:
+            content:
+              unset@: true
+
+            header.title:
+              unset@: true
+
+            header.media_order:
+              unset@: true
+
+            header.module:
+              type: pages
+              label: Module
+              show_all: false
+              show_modular: true
+              data-start_route@: '\Grav\Plugin\ModuleReuse\Config::getRoot'
