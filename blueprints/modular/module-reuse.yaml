@@ -21,4 +21,4 @@ form:
               label: Module
               show_all: false
               show_modular: true
-              data-start_route@: '\Grav\Plugin\ModuleReuse\Config::getRoot'
+              config-start_route@: plugins.module-reuse.root
