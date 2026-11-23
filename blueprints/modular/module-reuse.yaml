@@ -18,7 +18,7 @@ form:
 
             header.module:
               type: pages
-              label: PLUGIN_MODULE_REUSE.FORM.MODULE
+              label: PLUGIN_MODULE_REUSE.FORM.MODULE_LABEL
               show_all: false
               show_modular: true
               config-start_route@: plugins.module-reuse.root

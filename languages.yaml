@@ -5,7 +5,7 @@ en:
         LABEL: Start in
         DESCRIPTION: Root page to start the tree for module selection
     FORM:
-      MODULE: Module
+      MODULE_LABEL: Module
 
 lt:
   PLUGIN_MODULE_REUSE:
@@ -14,4 +14,4 @@ lt:
         LABEL: Pradėti
         DESCRIPTION: Šakninis medžio katalogas, kur pradėti modulių paiešką
     FORM:
-      MODULE: Modulis
+      MODULE_LABEL: Modulis
