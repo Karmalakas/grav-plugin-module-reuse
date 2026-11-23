@@ -1,5 +1,5 @@
-title: Module re-use
-'@extends': default
+title: Module reuse
+extends@: default
 
 form:
   fields:
@@ -18,7 +18,7 @@ form:
 
             header.module:
               type: pages
-              label: Module
+              label: PLUGIN_MODULE_REUSE.FORM.MODULE_LABEL
               show_all: false
               show_modular: true
               config-start_route@: plugins.module-reuse.root

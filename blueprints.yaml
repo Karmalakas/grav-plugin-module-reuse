@@ -31,7 +31,7 @@ form:
         type: bool
     root:
       type: pages
-      label: Start in
+      label: PLUGIN_MODULE_REUSE.CONFIG.ROOT.LABEL
       show_all: false
       show_modular: false
-      description: Root page to start the tree for module selection
+      description: PLUGIN_MODULE_REUSE.CONFIG.ROOT.DESCRIPTION
