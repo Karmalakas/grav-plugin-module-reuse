@@ -1,13 +1,13 @@
 name: Module Reuse
 slug: module-reuse
 type: plugin
-version: 0.1.0
+version: 1.0.0
 description: Reuse any module in a modular page
 icon: plug
 author:
   name: Karmalakas
 homepage: https://github.com/karmalakas/grav-plugin-module-reuse
-#demo: http://demo.yoursite.com
+demo: https://karmalakas.lt/grav-plugins-demos/module-reuse
 keywords: modular, module, duplicate
 bugs: https://github.com/karmalakas/grav-plugin-module-reuse/issues
 docs: https://github.com/karmalakas/grav-plugin-module-reuse/blob/develop/README.md
@@ -15,6 +15,9 @@ license: MIT
 
 dependencies:
   - { name: grav, version: '>=1.7.0' }
+
+compatibility:
+  grav: [ '1.7', '2.0' ]
 
 form:
   validation: loose

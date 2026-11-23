@@ -1,4 +1,5 @@
 <?php
+
 namespace Grav\Plugin;
 
 use Composer\Autoload\ClassLoader;
@@ -46,20 +47,19 @@ class ModuleReusePlugin extends Plugin
      */
     public function onPluginsInitialized(): void
     {
-        if ($this->isAdmin()) {
-            $this->enable(
-                [
-//                    'onAdminSave'         => ['onAdminSave', 0],
-                    'onGetPageTemplates'  => ['onGetPageTemplates', 0],
-                    'onGetPageBlueprints' => ['onGetPageBlueprints', 0],
-                ]
-            );
+        $this->enable(
+            [
+                'onGetPageTemplates' => ['onGetPageTemplates', 0],
+                'onGetPageBlueprints' => ['onGetPageBlueprints', 0],
+            ]
+        );
 
+        if ($this->isAdmin()) {
             return;
         }
 
         $this->enable([
-                'onTwigTemplatePaths' => ['onTwigTemplatePaths', 0],
+            'onTwigTemplatePaths' => ['onTwigTemplatePaths', 0],
         ]);
     }
 
