@@ -1,2 +1,17 @@
 en:
   PLUGIN_MODULE_REUSE:
+    CONFIG:
+      ROOT:
+        LABEL: Start in
+        DESCRIPTION: Root page to start the tree for module selection
+    FORM:
+      MODULE: Module
+
+lt:
+  PLUGIN_MODULE_REUSE:
+    CONFIG:
+      ROOT:
+        LABEL: Pradėti
+        DESCRIPTION: Šakninis medžio katalogas, kur pradėti modulių paiešką
+    FORM:
+      MODULE: Modulis
